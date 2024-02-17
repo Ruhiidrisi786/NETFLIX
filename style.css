@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    height: 80vh;
+    position: relative;
+    background-image: url("assets/images/bg.jpg");
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    height: 60px;
+    max-width: 80vw;
+    margin: auto;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main nav img{
+    width: 150px;
+}
+
+#dropDown{
+    padding: 7px 15px;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    background-color: #0000003a;
+    border: 2px solid rgb(32, 32, 32);
+    color: #fff;
+}
+.box{
+    text-align: center;
+    background-color: green;
+}
